@@ -1,1 +1,21 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+.cardbody {
+  width: 100px;
+  height: 150px;
+  margin: 10px;
+  border-radius: 5px;
+}
+#card-number {
+  height: 50px;
+  font-size: 40px;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+.card-suit {
+  padding: 5px;
+}
+.card-suit:last-of-type {
+  text-align: right;
+  padding-bottom: 5px;
+}
